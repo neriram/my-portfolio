@@ -1,7 +1,9 @@
 <template>
   <v-btn
-    color="secondary"
+    color="info"
     rounded
+    href="/files/NR-Resume.pdf"
+    download
     v-bind="$attrs"
     v-on="$listeners"
   >

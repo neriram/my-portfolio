@@ -32,11 +32,11 @@
               style="transform: translateX(55%)"
             />
             <base-heading class="info--text">
-              Abilities
+              Values
             </base-heading>
 
             <base-text class="mb-5">
-              These are the core services I operate by. <br>
+              These are the core values I operate by. <br>
               They inform my work style and products.
             </base-text>
           </v-col>
@@ -92,7 +92,7 @@
         },
         {
           name: 'Development',
-          icon: 'mdi-settings-outline',
+          icon: 'mdi-cog',
           blurb: 'Creative solutions <br>',
         },
         {

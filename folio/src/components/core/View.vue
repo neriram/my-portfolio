@@ -8,7 +8,7 @@
 
     <about-me />
 
-    <get-in-touch />
+    <!-- <get-in-touch /> -->
   </div>
 </template>
 

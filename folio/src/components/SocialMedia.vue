@@ -5,13 +5,18 @@
       :key="i"
       fab
       class="ma-2"
-      color="info"
+      color="secondary"
       :small="!large"
     >
+    <a
+      :href="item.url"
+      :target="item.target"
+      >
       <v-icon
         dark
         v-text="item.icon"
       />
+      </a>
     </v-btn>
   </div>
 </template>
@@ -28,26 +33,33 @@
     data: () => ({
       items: [
         {
-          name: 'Twitter',
-          icon: 'mdi-twitter',
-        },
-        {
-          name: 'Instagram',
-          icon: 'mdi-instagram',
-        },
-        {
-          name: 'Facebook',
-          icon: 'mdi-facebook',
-        },
-        {
           name: 'Email',
           icon: 'mdi-email',
+          url: 'mailto:neriram@gmail.com',
+          target: '_blank',
         },
         {
-          name: 'Phone',
-          icon: 'mdi-phone',
+          name: 'GitHub',
+          icon: 'mdi-github',
+          url: 'https://github.com/neriram',
+          target: '_blank',
         },
+        {
+          name: 'LinkedIn',
+          icon: 'mdi-linkedin',
+          url: 'https://www.linkedin.com/in/neri-r-2731b31a9',
+          target: '_blank',
+        },
+        // {
+        //   name: 'Phone',
+        //   icon: 'mdi-phone',
+        // },
       ],
     }),
   }
 </script>
+<style scoped>
+a {
+text-decoration: none;
+}
+</style>

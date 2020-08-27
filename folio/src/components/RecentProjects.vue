@@ -7,10 +7,10 @@
       <v-col
         class="primary text-center pa-5 white--text"
         cols="12"
-        md="6"
+        md="12"
       >
         <base-bubble-1
-          style="transform: rotate(180deg) translateX(25%)"
+          style="transform: rotate(180deg) translateX(2%)"
         />
 
         <base-heading>
@@ -18,9 +18,10 @@
         </base-heading>
 
         <base-text class="mb-5">
-          Hive: a game built with HTML, CSS and JS <br>
-          Real Talk: full stack app built with Node & SQL <br>
-          innervue: full stack app built with React & MongoDB
+          <a href="https://neriram.github.io/P1-Hive/">Hive:</a> a game built with HTML, CSS and JS <br>
+          <a href="https://p2-real-talk.herokuapp.com">Real Talk:</a> full stack app built with Node, SQL, and SentimAI <br>
+          innervue: full stack app built with React, MongoDB, and Google NLP<br>
+          bbBook: proof-of-concept baby book app built with Vue and Vuetify
         </base-text>
 
         <v-card color="secondary">
@@ -42,16 +43,16 @@
             </v-row>
           </v-container>
         </v-card>
-      </v-col>
+     </v-col>
 
       <v-col
         class="hidden-sm-and-down"
         md="6"
       >
-        <v-img
+       <!-- <v-img
           :src="require('@/assets/workstation.jpg')"
           height="100%"
-        />
+        /> -->
       </v-col>
     </v-row>
   </section>
@@ -65,9 +66,18 @@
       projects: [
         'project1',
         'project2',
-        // 'project3',
-        // 'project4',
+        'project3',
+        'project4',
       ],
     }),
   }
 </script>
+<style scoped>
+a {
+  color:black;
+  text-decoration: none;
+}
+a:hover {
+  color: #e35d09;
+}
+</style>

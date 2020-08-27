@@ -25,12 +25,19 @@
         </base-text>
 
         <base-subheading class="info--text">
-          Skills
+          Knowledge
         </base-subheading>
 
         <base-text class="mb-5">
-          I posses solid understanding and mastery of key technologies <br>
-          but I also enjoy learning emerging frameworks.
+          I posses solid understanding and mastery of key technologies
+          but I also enjoy learning emerging frameworks.<br>
+        </base-text>
+          <base-subheading class="info--text">
+          Skills
+        </base-subheading>
+        <base-text class="mb-5">
+          React | Vue | Node | Express | MongoDB | SQL | CSS | RESTful APIs | HTML | Python | jQuery | Webpack |
+          UI + UX Design | Git | Bootstrap | Materialize
         </base-text>
 
         <v-alert
@@ -82,11 +89,11 @@
       skills: [
         {
           name: 'Web Design',
-          value: 100,
+          value: 80,
         },
         {
           name: 'Web Development',
-          value: 75,
+          value: 95,
         },
         {
           name: 'JavaScript',
